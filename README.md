@@ -2,7 +2,7 @@
 
 
 
- Name: Prashant gupta /n
- Symbol number: 24CS0666 /n
- Subject: Compiler design /n
+ Name: Prashant gupta 
+ Symbol number: 24CS0666 
+ Subject: Compiler design 
  5th sem
