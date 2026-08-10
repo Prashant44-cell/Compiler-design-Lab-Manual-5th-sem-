@@ -1,0 +1,16 @@
+$ lex art_expr.l
+$ yacc -d art_expr.y
+$ gcc lex.yy.c y.tab.c -o art_expr
+
+$ ./art_expr
+Enter the Expression
+a+b*c-d/e
+valid Expression
+
+$ ./art_expr
+Enter the Expression
+a=b
+Invalid Expression
+
+RESULT:
+Thus the program to recognize a valid arithmetic expression that uses operator +, -, * and / using YACC tool was executed and verified successfully.

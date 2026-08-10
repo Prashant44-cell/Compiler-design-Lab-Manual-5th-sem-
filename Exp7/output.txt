@@ -1,0 +1,13 @@
+$ lex tac.l
+$ yacc -d tac.y
+$ gcc y.tab.c lex.yy.c -o tac
+$ ./tac
+Enter the expression:
+a = b + c * d
+
+t1 = c * d 
+t2 = b + t1 
+a = t2
+
+RESULT:
+Thus, the program to generate three-address code using LEX and YACC was executed and verified successfully.

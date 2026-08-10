@@ -1,0 +1,18 @@
+Enter Three Address Code (end with CTRL+Z on Windows or CTRL+D on Linux):
+a=2+4;
+b=d*1;
+c=s*2;
+^Z
+
+Unoptimized Code:
+a=2+4;
+b=d*1;
+c=s*2;
+
+Optimized Code:
+a=6;	// Constant Folding
+b=d;	// Algebraic Simplification (X*1 or X/1)
+c=s+s;	// Strength Reduction (X*2 to X+X)
+
+RESULT:
+Thus, the C program for simple code optimization techniques like constant folding, strength reduction, and algebraic simplification was successfully implemented and tested with various inputs.
